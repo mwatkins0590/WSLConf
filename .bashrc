@@ -123,12 +123,12 @@ export PS1="\w $: "
 alias ebrc='sudo vim ~/.bashrc'
 #i like to reload bashrc after i edit, so i use rbrc
 alias rbrc='source ~/.bashrc'
-#cant perfectly mimic ~ but this at least lets us cd to it
+#cant perfectly mimic ~ but this at least lets us cd to the windows home folder
 alias 'w~'='cd /mnt/c/Users/$LOGNAME'
 alias 'pw~'='echo /mnt/c/Users/$LOGNAME'
-alias untargz='tar -xzf'
+alias untar='tar -xzf'
 alias sv='sudo vim'
-alias cpc="xclip -sel c <"
+alias cpc='xclip -sel c <'
 
 
 #Jetbrains
