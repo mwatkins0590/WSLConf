@@ -1,0 +1,1 @@
+"C:\Program Files\WSL\wslg.exe" -d Ubuntu --cd "~" -- terminator
